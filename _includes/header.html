@@ -1,27 +1,13 @@
 <header class="masthead clearfix">
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.header_pages | default: default_paths %}
   <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
    <div class="site-info">
 	<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
 	<p class="site-description">{{ site.description }}</p>
   </div>
-  
-    {% if page_paths %}
-      <nav class="site-nav">
-        <div class="trigger">
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% else %}
-	  <nav>
-		<a href="{{ site.baseurl }}/">Blog</a>
-		<a href="{{ site.baseurl }}/about">About</a>
-	  </nav>
-    {% endif %}
+	
+  <nav>
+    <a href="{{ site.baseurl }}/">Blog</a>
+    <a href="{{ site.baseurl }}/about">About</a>
+    <a href="{{ site.baseurl }}/_pages/sample_code">Sample Code</a>
+  </nav>
 </header>
