@@ -8,4 +8,4 @@ This page originated as a blog about the current practices of mathematical educa
 
 ### Contact me
 
-[Message me on Facebook](https://www.facebook.com/Mathematical-education-what-is-and-what-could-be-180553125304169)
+[Message me on Facebook](https://www.facebook.com/pg/Mathematical-education-what-is-and-what-could-be-180553125304169/about/?ref=page_internal)
