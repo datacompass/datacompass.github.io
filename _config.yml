@@ -2,6 +2,9 @@
 # This file contains configuration flags to customize your site
 #
 theme: jekyll-theme-slate
+include: ['_pages']
+header_pages:
+   - _pages/sample_code.md
 
 # Name of your site (displayed in the header)
 name: Data Compass
