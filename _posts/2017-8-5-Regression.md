@@ -38,13 +38,6 @@ As you might have guessed, there are different types of curves.  Two examples ar
   </table>
 
 
-
-![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="500px"}
-
-<b>Quadratic.</b> $ y_{LIN} = a x^2 + b x + c $
-![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="400px"}
-
-
 There are also other types, but we won't need to go into them here.  Choosing the type of curve to fit the data is something of an art that one gets better at with experience.
 
 Each type of curve is defined by the parameters in its formula. The parameters of a linear curve $y_{\mbox{\small LIN}}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{\mbox{\small QUAD}}$ are the coefficients $a, b, c$, with $a$ being nonzero.
