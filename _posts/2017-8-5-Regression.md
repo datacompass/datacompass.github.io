@@ -3,28 +3,17 @@ layout: post
 use_math: true
 ---
 
- hello, $x=3$.  and also
- 
- $$x = \sqrt{4}$$
-
-
-\begin{document}
-
-\title{What is regression?}
-\date{}
-\maketitle
-
-\vspace{-0.3in}
-
 Regression is fitting a bunch of data points with a curve.
 
 The data are $xy$-coordinate pairs:
 ![data sample]({{ site.url }}/images/data-sample-notional.jpg){:height="50px"}
-
+​
+11
 \begin{center}
+12
 {\includegraphics[scale = 0.4]{data-sample-notional.pdf}}
+13
 \end{center}
-
 The two steps of regression are:
 \begin{enumerate}
 
@@ -82,5 +71,3 @@ S(a, b, c) =
 \big]^2
 $$
 with respect to $a, b, c$.  This minimization is also already programmed into Excel and other standard programs.
-
-\end{document}
