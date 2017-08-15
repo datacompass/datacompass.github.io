@@ -10,13 +10,13 @@ The data are $xy$-coordinate pairs:
 ![Data Sample]({{ site.url }}/images/data-sample-notional.jpg){:height="500px"}
 
 The two steps of regression are:
-<OL>
+<ol>
 
-<LI>  Choose the type of curve we want to fit the data with.
+<li>  Choose the type of curve we want to fit the data with. </li>
 
-<LI>  Choose a curve of that type that is a closest fit.
+<li>  Choose a curve of that type that is a closest fit. </li>
 
-</OL>
+</ol>
 We will explain these below.
 
 
