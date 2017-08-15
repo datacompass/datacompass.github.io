@@ -20,7 +20,11 @@ The two steps of regression are:
 We will explain these below.
 
 
-As you might have guessed, there are different types of curves.  Two examples are:\newline
+As you might have guessed, there are different types of curves.  Two examples are:
+
+
+![{\bf Linear.} $y_{\mbox{\small LIN}} = mx + b$ ]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="500px"}
+
 
 \begin{tabular}{cc}
 {\bf Linear.} $y_{\mbox{\small LIN}} = mx + b$ & {\bf Quadratic.} $y_{\mbox{\small QUAD}} = ax^2 + bx + c$ \\
