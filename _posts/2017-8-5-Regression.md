@@ -36,7 +36,7 @@ Each type of curve is defined by the parameters in its formula.  Here are the pa
 | Linear  | : | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
 | Quadratic: | : | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
-Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
+Say in Step 1 above, we chose the linear type.  To do Step 2 for this choice, we first write the sum
 
 $$
 S({\bf m}, {\bf b}) = 
@@ -52,10 +52,10 @@ S({\bf m}, {\bf b}) =
 \big]^2
 $$
 
-(This sum measures "how off" the linear fit is for the particular values ${\bf m}, {\bf b}$.) "Closest fit" means that we would find the values ${\bf m}, {\bf b}$ that minimize the sum $S({\bf m}, {\bf b})$.  The formula for these values is already known and is already programmed into Excel and other software.
+(This sum measures "how off" the linear fit is for the particular values ${\bf m}, {\bf b}$.) For Step 2, we would then find the line that is a "closest fit."  This means that we would find the values ${\bf m}, {\bf b}$ that minimize the sum $S({\bf m}, {\bf b})$.  The formula for these values is already known and is already programmed into Excel and other software.
 
 
-If, instead of the linear type we chose the quadratic type, we would be minimizing the sum
+If instead of the linear type we chose the quadratic type, we would be minimizing the sum
 
 $$
 S({\bf a}, {\bf b}, {\bf c}) = 
