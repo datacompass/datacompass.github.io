@@ -7,7 +7,7 @@ Regression is fitting a bunch of data points with a curve.
 
 The data are $xy$-coordinate pairs:
 
-![Data Sample]({{ site.url }}/images/data-sample-notional.jpg){:height="400px"}
+![Data Sample]({{ site.url }}/images/data-sample-notional.jpg){:height="400px" width = "450px"}
 
 The two steps of regression are:
 <ol>
@@ -23,7 +23,7 @@ As you might have guessed, there are different types of curves.  Two examples ar
 
 | <b>Linear:</b> $ y_{LIN} = mx + b $ | <b>Quadratic:</b> $ y_{QUAD} = a x^2 + b x + c $  |
 |---|---|
-|![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "350px"} | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}|
+|![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "400px"} | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px width = "400px"}|
 
 
 
