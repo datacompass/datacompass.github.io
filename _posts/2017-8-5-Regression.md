@@ -47,10 +47,11 @@ S(m, b) =
 \big]^2
 $$
 
-(This sum measures ``how off'' the linear fit is for the particular values $m, b$.) We would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
+(This sum measures ``how off'' the linear fit is for the particular values $m, b$.) ``Closest fit'' means that we would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
 
 
 If, instead of the linear type we chose the quadratic type, we would be minimizing the sum
+
 $$
 S(a, b, c) = 
 \big[
@@ -64,4 +65,5 @@ S(a, b, c) =
 (a x_{n}^2 + bx_{n} + c) - y_{n}
 \big]^2
 $$
-with respect to $a, b, c$.  This minimization is also already programmed into Excel and other standard programs.
+
+with respect to $a, b, c$.  This minimization is also already programmed into Excel and other standard software.
