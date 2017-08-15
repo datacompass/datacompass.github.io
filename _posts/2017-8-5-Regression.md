@@ -23,7 +23,7 @@ We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-<b>Linear.</b> $y_{\mbox{\small LIN}} = mx + b$
+<strong>Linear.</strong> $y_{LIN} = mx + b$
 ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="500px"}
 
 
