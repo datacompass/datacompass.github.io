@@ -25,12 +25,9 @@ As you might have guessed, there are different types of curves.  Two examples ar
 
 <b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}
 
-<table border = "1" color = "gray">
-<tr>
-<th> Linear </th>
-<th> Quadratic</th>
-</tr>
-</table>
+|Linear|Quadratic|
+|------|---------|
+|![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px"}| ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}|
 
 
 
