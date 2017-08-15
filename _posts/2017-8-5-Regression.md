@@ -35,6 +35,7 @@ As you might have guessed, there are different types of curves.  Two examples ar
     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="200px"}
     </th> 
   </tr>
+  </table>
 
 
 
