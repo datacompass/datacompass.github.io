@@ -22,7 +22,7 @@ We will explain these below.
 As you might have guessed, there are different types of curves.  Two examples are:
 
 | <b>Linear:</b> $ y_{LIN} = {\bf m} x + {\bf b} $ | | <b>Quadratic:</b> $ y_{QUAD} = {\bf a} x^2 + {\bf b} x + {\bf c} $  |
-|:---|---|:---|
+|:---|---|---:|
 |![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "400px"} | | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px width = "400px"}|
 
 
