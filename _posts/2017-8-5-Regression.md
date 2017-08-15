@@ -21,21 +21,11 @@ We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-<table border="2" bordercolor="gray" align="center">
-  <tr>
-    <th colspan = "1">
-<b>Linear.</b> $ y_{LIN} = mx + b $</th>
-    <th><b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $</th> 
-  </tr>
-  <tr>
-    <th>
+<b>Linear.</b> $ y_{LIN} = mx + b $    
       ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="200px"}
-    </th>
-    <th>
-    ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="200px"}
-    </th> 
-  </tr>
-  </table>
+
+<b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="200px"}
+
 
 
 There are also other types, but we won't need to go into them here.  Choosing the type of curve to fit the data is something of an art that one gets better at with experience.
