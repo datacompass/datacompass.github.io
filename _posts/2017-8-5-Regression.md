@@ -10,13 +10,13 @@ The data are $xy$-coordinate pairs:
 ![data sample]({{ site.url }}/images/data-sample-notional.jpg){:height="500px"}
 
 The two steps of regression are:
-\begin{enumerate}
+<OL>
 
-\item  Choose the type of curve we want to fit the data with.
+<LI>  Choose the type of curve we want to fit the data with.
 
-\item  Choose a curve of that type that is a closest fit.
+<LI>  Choose a curve of that type that is a closest fit.
 
-\end{enumerate}
+</OL>
 We will explain these below.
 
 
