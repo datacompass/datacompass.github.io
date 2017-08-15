@@ -31,24 +31,24 @@ There are also other types, but we won't need to go into them here.  Choosing th
 
 Each type of curve is defined by the parameters in its formula.  Here are the parameters for linear and quadratic types:
 
-| Curve type | | Parameters|
+| Curve type | : | Parameters|
 |:---|----|:---|
-| Linear:  | | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
-| Quadratic: | | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
+| Linear  | : | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
+| Quadratic: | : | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
 Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
 
 $$
 S({\bf m}, {\bf b}) = 
 \big[
-({\bf m} x_{1} + {\bf b}) - y_{1}
+({\bf m} \: x_{1} + {\bf b}) - y_{1}
 \big]^2 + 
 \big[
-({\bf m} x_{2} + {\bf b}) - y_{2}
+({\bf m} \: x_{2} + {\bf b}) - y_{2}
 \big]^2 + 
 \ldots +
 \big[
-({\bf m} x_{n} + {\bf b}) - y_{n}
+({\bf m} \: x_{n} + {\bf b}) - y_{n}
 \big]^2
 $$
 
@@ -60,14 +60,14 @@ If, instead of the linear type we chose the quadratic type, we would be minimizi
 $$
 S({\bf a}, {\bf b}, {\bf c}) = 
 \big[
-({\bf a} x_{1}^2 + {\bf b}  x_{1} + {\bf c}) - y_{1}
+({\bf a} \: x_{1}^2 + {\bf b}  \: x_{1} + {\bf c}) - y_{1}
 \big]^2 + 
 \big[
-({\bf a} x_{2}^2 + {\bf b} x_{2} + {\bf c}) - y_{2}
+({\bf a} \: x_{2}^2 + {\bf b} \: x_{2} + {\bf c}) - y_{2}
 \big]^2 + 
 \ldots +
 \big[
-({\bf a} x_{n}^2 + {\bf b} x_{n} + {\bf c}) - y_{n}
+({\bf a} \: x_{n}^2 + {\bf b} \: x_{n} + {\bf c}) - y_{n}
 \big]^2
 $$
 
