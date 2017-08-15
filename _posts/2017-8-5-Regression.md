@@ -3,6 +3,11 @@ layoutl: defaults
 use_math: true
 ---
 
+ hello, $x=3$.  and also
+ 
+ $$x = \sqrt{4}$$
+
+
 \begin{document}
 
 \title{What is regression?}
