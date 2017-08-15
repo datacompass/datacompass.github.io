@@ -7,13 +7,7 @@ Regression is fitting a bunch of data points with a curve.
 
 The data are $xy$-coordinate pairs:
 ![data sample]({{ site.url }}/images/data-sample-notional.jpg){:height="50px"}
-​
-11
-\begin{center}
-12
-{\includegraphics[scale = 0.4]{data-sample-notional.pdf}}
-13
-\end{center}
+
 The two steps of regression are:
 \begin{enumerate}
 
