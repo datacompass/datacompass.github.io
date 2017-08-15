@@ -12,16 +12,16 @@ The data are $xy$-coordinate pairs:
 The two steps of regression are:
 <ol>
 
-<li>  Choose the type of curve we want to fit the data with. </li>
+<li>  <b>Choose the type of curve</b> we want to fit the data with. </li>
 
-<li>  Choose a curve of that type that is a closest fit. </li>
+<li>  <b>Find a particular curve</b> of that type that is a closest fit. </li>
 
 </ol>
 We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-| <b>Linear.</b> $ y_{LIN} = mx + b $ | <b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $  |
+| <b>Linear:</b> $ y_{LIN} = mx + b $ | <b>Quadratic:</b> $ y_{QUAD} = a x^2 + b x + c $  |
 |---|---|
 |![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "350px"} | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}|
 
