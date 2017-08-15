@@ -58,17 +58,22 @@ $$
 If instead of the linear type we chose the quadratic type, we would be minimizing the sum
 
 $$
-S({\bf a}, {\bf b}, {\bf c}) = 
+\begin{array}{lll}
+S({\bf a}, {\bf b}, {\bf c}) & = & 
 \big[
 ({\bf a} \: x_{1}^2 + {\bf b}  \: x_{1} + {\bf c}) - y_{1}
-\big]^2 + 
+\big]^2 \\  
+& + &
 \big[
 ({\bf a} \: x_{2}^2 + {\bf b} \: x_{2} + {\bf c}) - y_{2}
-\big]^2 + 
-\ldots +
+\big]^2 \\
+& + &
+\ldots \\ 
+& + &
 \big[
 ({\bf a} \: x_{n}^2 + {\bf b} \: x_{n} + {\bf c}) - y_{n}
-\big]^2
+\big]^2 \\
+\end{array}
 $$
 
 with respect to ${\bf a}, {\bf b}, {\bf c}$.  This minimization is also already programmed into Excel and other standard software.
