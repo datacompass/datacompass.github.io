@@ -25,14 +25,8 @@ As you might have guessed, there are different types of curves.  Two examples ar
 
 ![ {\bf Linear.} $y_{\mbox{\small LIN}} = mx + b$ ]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="400px"}
 
-![ {\bf Linear.} $y_{\mbox{\small LIN}} = mx + b$ & {\bf Quadratic.} $y_{\mbox{\small QUAD}} = ax^2 + bx + c$ ]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="400px"}
+![ {\bf Quadratic.} $y_{\mbox{\small QUAD}} = ax^2 + bx + c$ ]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="400px"}
 
-
-#\begin{tabular}{cc}
-#{\bf Linear.} $y_{\mbox{\small LIN}} = mx + b$ & {\bf Quadratic.} $y_{\mbox{\small QUAD}} = ax^2 + bx + c$ \\
-#{\includegraphics[scale = 0.35]{data-sample-linear-fit-notional.pdf}} &
-#{\includegraphics[scale = 0.35]{data-sample-quadratic-fit-notional.pdf}} \\
-#\end{tabular}
 
 There are also other types, but we won't need to go into them here.  Choosing the type of curve to fit the data is something of an art that one gets better at with experience.
 
