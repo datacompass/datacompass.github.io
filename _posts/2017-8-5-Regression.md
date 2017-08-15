@@ -25,7 +25,7 @@ As you might have guessed, there are different types of curves.  Two examples ar
   <tr>
     <th colspan = "1">
 <b>Linear.</b> $ y_{LIN} = mx + b $</th>
-    <th><b>Quadratic.</b> $ y_{LIN} = a x^2 + b x + c $</th> 
+    <th><b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $</th> 
   </tr>
   <tr>
     <th>
@@ -40,7 +40,7 @@ As you might have guessed, there are different types of curves.  Two examples ar
 
 There are also other types, but we won't need to go into them here.  Choosing the type of curve to fit the data is something of an art that one gets better at with experience.
 
-Each type of curve is defined by the parameters in its formula. The parameters of a linear curve $y_{\mbox{\small LIN}}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{\mbox{\small QUAD}}$ are the coefficients $a, b, c$, with $a$ being nonzero.
+Each type of curve is defined by the parameters in its formula. The parameters of a linear curve $y_{LIN}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{QUAD}$ are the coefficients $a, b, c$, with $a$ being nonzero.
 
 Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
 $$
