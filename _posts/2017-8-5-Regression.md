@@ -22,9 +22,9 @@ We will explain these below.
 As you might have guessed, there are different types of curves.  Two examples are:
 
 <b>Linear.</b> $ y_{LIN} = mx + b $    
-      ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="200px"}
+      ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px"}
 
-<b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="200px"}
+<b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}
 
 
 
@@ -33,6 +33,7 @@ There are also other types, but we won't need to go into them here.  Choosing th
 Each type of curve is defined by the parameters in its formula. The parameters of a linear curve $y_{LIN}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{QUAD}$ are the coefficients $a, b, c$, with $a$ being nonzero.
 
 Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
+
 $$
 S(m, b) = 
 \big[
@@ -46,6 +47,7 @@ S(m, b) =
 (m x_{n} + b) - y_{n}
 \big]^2
 $$
+
 (This sum measures ``how off'' the linear fit is for the particular values $m, b$.) We would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
 
 
