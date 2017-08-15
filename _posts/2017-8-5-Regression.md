@@ -39,36 +39,36 @@ Each type of curve is defined by the parameters in its formula.  Here are the pa
 Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
 
 $$
-S(m, b) = 
+S({\bf m}, {\bf b}) = 
 \big[
-(m x_{1} + b) - y_{1}
+({\bf m} x_{1} + {\bf b}) - y_{1}
 \big]^2 + 
 \big[
-(m x_{2} + b) - y_{2}
+({\bf m} x_{2} + {\bf b}) - y_{2}
 \big]^2 + 
 \ldots +
 \big[
-(m x_{n} + b) - y_{n}
+({\bf m} x_{n} + {\bf b}) - y_{n}
 \big]^2
 $$
 
-(This sum measures "how off" the linear fit is for the particular values $m, b$.) "Closest fit" means that we would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
+(This sum measures "how off" the linear fit is for the particular values ${\bf m}, {\bf b}$.) "Closest fit" means that we would find the values ${\bf m}, {\bf b}$ that minimize the sum $S({\bf m}, {\bf b})$.  The formula for these values is already known and is already programmed into Excel and other software.
 
 
 If, instead of the linear type we chose the quadratic type, we would be minimizing the sum
 
 $$
-S(a, b, c) = 
+S({\bf a}, {\bf b}, {\bf c}) = 
 \big[
-(a x_{1}^2 + bx_{1} + c) - y_{1}
+({\bf a} x_{1}^2 + {\bf b}  x_{1} + {\bf c}) - y_{1}
 \big]^2 + 
 \big[
-(a x_{2}^2 + bx_{2} + c) - y_{2}
+({\bf a} x_{2}^2 + {\bf b} x_{2} + {\bf c}) - y_{2}
 \big]^2 + 
 \ldots +
 \big[
-(a x_{n}^2 + bx_{n} + c) - y_{n}
+({\bf a} x_{n}^2 + {\bf b} x_{n} + {\bf c}) - y_{n}
 \big]^2
 $$
 
-with respect to $a, b, c$.  This minimization is also already programmed into Excel and other standard software.
+with respect to ${\bf a}, {\bf b}, {\bf c}$.  This minimization is also already programmed into Excel and other standard software.
