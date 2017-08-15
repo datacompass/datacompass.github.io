@@ -31,9 +31,13 @@ There are also other types, but we won't need to go into them here.  Choosing th
 
 Each type of curve is defined by the parameters in its formula.  Here are the parameters for linear and quadratic types:
 
-||linear $y_{LIN}$ |quadratic $y_{QUAD}$|
-|parameters:| slope $m$ and $y$-intercept $b$ | coefficients $a, b, c$, with $a \neq 0$|
+<ol>
 
+<li> linear $y_{LIN}$ : slope $m$ and $y$-intercept $b$</li>
+
+<li> quadratic $y_{QUAD}$ : coefficients $a, b, c$, with $a \neq 0$ </li>
+
+</ol>
 
 The parameters of a linear curve $y_{LIN}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{QUAD}$ are the coefficients $a, b, c$, with $a$ being nonzero.
 
