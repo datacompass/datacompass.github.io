@@ -19,11 +19,9 @@ The two steps of regression are:
 </ol>
 We will explain these below.
 
-<strong>I'm Bold!</strong> and <b>I'm Bold Too!</b>
-
 As you might have guessed, there are different types of curves.  Two examples are:
 
-<strong>Linear.</strong> $y_{LIN} = mx + b$
+<b>Linear.</b> $ y_{LIN} = mx + b $
 ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="500px"}
 
 
