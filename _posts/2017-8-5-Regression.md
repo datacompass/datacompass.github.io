@@ -19,7 +19,7 @@ use_math: true
 Regression is fitting a bunch of data points with a curve.
 
 The data are $xy$-coordinate pairs:
-![data sample]({{ site.url }}/images/data-sample-notional.jpg)
+![data sample]({{ site.url }}/images/data-sample-notional.jpg){:height="50px"}
 
 \begin{center}
 {\includegraphics[scale = 0.4]{data-sample-notional.pdf}}
