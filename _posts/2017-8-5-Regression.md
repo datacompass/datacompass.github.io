@@ -1,5 +1,5 @@
 ---
-layoutl: defaults
+layout: post
 use_math: true
 ---
 
