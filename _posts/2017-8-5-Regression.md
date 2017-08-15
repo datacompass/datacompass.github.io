@@ -21,8 +21,7 @@ We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-<b>Linear.</b> $ y_{LIN} = mx + b $    
-      ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px"}
+<b>Linear.</b> $ y_{LIN} = mx + b $    ![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px"}
 
 <b>Quadratic.</b> $ y_{QUAD} = a x^2 + b x + c $     ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px"}
 
