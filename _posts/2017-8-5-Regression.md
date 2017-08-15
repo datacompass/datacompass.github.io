@@ -33,10 +33,8 @@ Each type of curve is defined by the parameters in its formula.  Here are the pa
 
 | Curve type | Parameters|
 |---|---|
-| Linear:  | slope ${\bf m}$ and $y$-intercept ${\bf b}$|
+| Linear:  | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
 | Quadratic: | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
-
-The parameters of a linear curve $y_{LIN}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{QUAD}$ are the coefficients $a, b, c$, with $a$ being nonzero.
 
 Say in Step 1 above, we chose the linear type.  To do Step 2, we would first write the sum
 
