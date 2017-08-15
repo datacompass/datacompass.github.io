@@ -21,9 +21,9 @@ We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-<table style="width:100%">
+<table border="2" bordercolor="gray" align="center">
   <tr>
-    <th>
+    <th colspan = "1">
 <b>Linear.</b> $ y_{LIN} = mx + b $</th>
     <th><b>Quadratic.</b> $ y_{LIN} = a x^2 + b x + c $</th> 
   </tr>
