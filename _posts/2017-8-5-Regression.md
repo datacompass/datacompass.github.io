@@ -29,7 +29,6 @@ As you might have guessed, there are different types of curves.  Two examples ar
 <tr>
 <th> Linear </th>
 <th> Quadratic</th>
-
 </tr>
 </table>
 
@@ -55,7 +54,7 @@ S(m, b) =
 \big]^2
 $$
 
-(This sum measures ``how off'' the linear fit is for the particular values $m, b$.) ``Closest fit'' means that we would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
+(This sum measures "how off" the linear fit is for the particular values $m, b$.) "Closest fit" means that we would find the values $m, b$ that minimize the sum $S(m, b)$.  The formula for these values is already known and is already programmed into Excel and other software.
 
 
 If, instead of the linear type we chose the quadratic type, we would be minimizing the sum
