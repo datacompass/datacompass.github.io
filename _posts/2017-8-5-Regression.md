@@ -21,7 +21,7 @@ We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
 
-| <b>Linear:</b> $ y_{LIN} = mx + b $ | <b>Quadratic:</b> $ y_{QUAD} = a x^2 + b x + c $  |
+| <b>Linear:</b> $ y_{LIN} = {\bf m} x + {\bf b} $ | <b>Quadratic:</b> $ y_{QUAD} = {\bf a} x^2 + {\bf b} x + {\bf c} $  |
 |---|---|
 |![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "400px"} | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px width = "400px"}|
 
@@ -31,9 +31,10 @@ There are also other types, but we won't need to go into them here.  Choosing th
 
 Each type of curve is defined by the parameters in its formula.  Here are the parameters for linear and quadratic types:
 
-| linear $y_{LIN}$ | quadratic $y_{QUAD}$ |
+| Curve type | Parameters|
 |---|---|
-| slope $m$ and $y$-intercept $b$ | coefficients $a, b, c$, with $a \neq 0$ |
+| Linear  | slope $|{\bf m}$ and $y$-intercept ${\bf b}$|
+| Quadratic | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
 The parameters of a linear curve $y_{LIN}$ are its slope, $m$, and its $y$-intercept, $b$.  The parameters, of a quadratic curve $y_{QUAD}$ are the coefficients $a, b, c$, with $a$ being nonzero.
 
