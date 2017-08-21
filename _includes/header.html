@@ -10,4 +10,9 @@
     <a href="{{ site.baseurl }}/about">About</a>
     <a href="{{ site.baseurl }}/_pages/sample_code">Sample Code</a>
   </nav>
+	
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+	
 </header>
