@@ -1,7 +1,7 @@
 ---
 layout: post
 use_math: true
-title: k-means Clustering
+title: *k*-means Clustering
 ---
 In a clustering problem, we are given:
 
