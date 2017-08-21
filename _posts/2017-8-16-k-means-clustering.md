@@ -1,6 +1,7 @@
 ---
 layout: post
 use_math: true
+title: k-means clustering
 ---
 
 <h1> *k*-means Clustering </h1>
