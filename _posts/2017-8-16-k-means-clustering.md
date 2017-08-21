@@ -3,9 +3,6 @@ layout: post
 use_math: true
 title: k-means Clustering
 ---
-
-<h1> *k*-means Clustering </h1>
-
 In a clustering problem, we are given:
 
 <ul>
