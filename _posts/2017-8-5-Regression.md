@@ -13,7 +13,7 @@ The two steps of regression are:
 
 **Step 1:** **Choose the type of curve** we want to fit the data with.
 
-** Step 2:**  **Find a particular curve** of that type that is a closest fit.
+**Step 2:**  **Find a particular curve** of that type that is a closest fit.
 
 We will explain these below.
 
