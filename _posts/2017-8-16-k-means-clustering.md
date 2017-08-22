@@ -22,7 +22,7 @@ all the prices into three groups, "high", "medium", "low"? (*Quantiles* in stati
 
 # *k*-means Clustering
 
-##  When this method is usable
+##  What is needed to use this method?
 
 This method of clustering can be used if:
 
