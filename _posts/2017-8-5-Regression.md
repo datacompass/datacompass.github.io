@@ -31,8 +31,8 @@ Each type of curve is defined by the parameters in its formula.  Here are the pa
 
 | Curve type | Parameters |
 | ---------- | ---------- | 
-| Linear | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
-| Quadratic | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
+| Linear     | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
+| Quadratic  | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
 Say in Step 1 above, we chose the linear type.  To do Step 2 for this choice, we first write the sum
 
