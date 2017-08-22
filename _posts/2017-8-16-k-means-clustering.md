@@ -40,9 +40,11 @@ Let $\mu_{1}, \mu_{2}, \ldots, \mu_{k}$ be the initially guessed means of the *k
 
 For each $i$ from 1 to $k$, let
 
+
 $$
 \mu_{i} = \mbox{the average of all the data points in the current $i$-th cluster.}
 $$
+
 
 If all the newly computed means are the same as the previous ones, stop.  Otherwise, go back to Step 1.
 
