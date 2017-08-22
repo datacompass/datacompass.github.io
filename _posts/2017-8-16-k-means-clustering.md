@@ -11,7 +11,7 @@ Before giving the steps of the method, we give a small overview of clustering in
 In a clustering problem, we are given:
 
 * A bunch of points (the data), and
-* Some way of measuring "closeness" between pairs of these data points.</li>
+* Some way of measuring "closeness" between pairs of these data points.
 
 Clustering is dividing up the data into non-overlapping groups (which we will call <i>clusters</i> because everyone else does)
 so that two data points in the same cluster are "closer" together than two data points in two different clusters. 
