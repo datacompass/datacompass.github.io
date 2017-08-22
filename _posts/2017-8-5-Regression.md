@@ -3,11 +3,13 @@ layout: post
 use_math: true
 ---
 
-Regression is fitting a bunch of data points with a curve.
-
-The data are $xy$-coordinate pairs:
+Regression is fitting a bunch of data points with a curve.  The data are $xy$-coordinate pairs:
 
 ![Data Sample]({{ site.url }}/images/data-sample-notional.jpg){:height="400px" width = "450px"}
+
+The purpose of regression is to predict the $y$-values for new $x$-values consistently with the given data.
+
+# The steps of regression
 
 The two steps of regression are:
 
@@ -17,6 +19,8 @@ The two steps of regression are:
 
 We will explain these below.
 
+# More about each step
+
 As you might have guessed, there are different types of curves.  Two examples are:
 
 | <b>Linear:</b> $ y_{LIN} = {\bf m} x + {\bf b} $ | <b>Quadratic:</b> $ y_{QUAD} = {\bf a} x^2 + {\bf b} x + {\bf c} $  |
@@ -24,15 +28,14 @@ As you might have guessed, there are different types of curves.  Two examples ar
 |![linear fit]({{ site.url }}/images/data-sample-linear-fit-notional.jpg){:height="300px" width = "400px"} | ![quadratic fit]({{ site.url }}/images/data-sample-quadratic-fit-notional.jpg){:height="300px width = "400px"}|
 
 
-
 There are also other types, but we won't need to go into them here.  Choosing the type of curve to fit the data is something of an art that one gets better at with experience.
 
 Each type of curve is defined by the parameters in its formula.  Here are the parameters for linear and quadratic types:
 
-| Curve type | Parameters |
-| :---------- | :---------- | 
-| Linear     | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
-| Quadratic  | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
+| Curve type     | Parameters |
+| :------------- | :---------- | 
+| Linear         | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
+| Quadratic      | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
 Say in Step 1 above, we chose the linear type.  To do Step 2 for this choice, we first write the sum
 
