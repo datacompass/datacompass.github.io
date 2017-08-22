@@ -4,6 +4,8 @@ use_math: true
 title: k-means Clustering
 ---
 
+Before giving the steps of the method, we give a small overview of clustering in general.
+
 # What is clustering about?
 
 In a clustering problem, we are given:
