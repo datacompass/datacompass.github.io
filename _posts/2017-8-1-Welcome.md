@@ -1,5 +1,6 @@
 ---
 layout: post
+use_math: true
 title: Welcome to my blog!
 ---
 
