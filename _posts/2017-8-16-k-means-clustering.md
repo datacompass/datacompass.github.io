@@ -34,9 +34,9 @@ This method of clustering can be used if:
 
 Let $\mu_{1}, \mu_{2}, \ldots, \mu_{k}$ be the initially guessed means of the *k* clusters we are looking to determine.
 
-Step 1.  For each data point, find the closest mean $\mu_{i}$ and label that point as belonging to the $i$-th cluster.
+**Step 1.**  For each data point, find the closest mean $\mu_{i}$ and label that point as belonging to the $i$-th cluster.
 
-Step 2.  Recompute the means by letting each
+**Step 2.**  Recompute the means by letting each
 $$
 \mu_{i} = \mbox{the average of all the data points in the $i$-th cluster, where $i$ goes from 1 to $k$.}
 $$
