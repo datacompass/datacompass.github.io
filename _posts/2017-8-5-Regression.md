@@ -10,13 +10,11 @@ The data are $xy$-coordinate pairs:
 ![Data Sample]({{ site.url }}/images/data-sample-notional.jpg){:height="400px" width = "450px"}
 
 The two steps of regression are:
-<ol>
 
-<li>  <b>Choose the type of curve</b> we want to fit the data with. </li>
+**Step 1:** **Choose the type of curve** we want to fit the data with.
 
-<li>  <b>Find a particular curve</b> of that type that is a closest fit. </li>
+** Step 2:**  **Find a particular curve** of that type that is a closest fit.
 
-</ol>
 We will explain these below.
 
 As you might have guessed, there are different types of curves.  Two examples are:
@@ -32,7 +30,7 @@ There are also other types, but we won't need to go into them here.  Choosing th
 Each type of curve is defined by the parameters in its formula.  Here are the parameters for linear and quadratic types:
 
 | Curve type | Parameters |
-|:---|:---| 
+| ---------- | ---------- | 
 | Linear | slope ${\bf m}$ and $y$-intercept ${\bf b}$ |
 | Quadratic | coefficients ${\bf a}, {\bf b}, {\bf c}$, with ${\bf a} \neq 0$ |
 
