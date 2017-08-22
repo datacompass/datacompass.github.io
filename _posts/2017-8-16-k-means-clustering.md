@@ -32,7 +32,7 @@ This method of clustering can be used if:
 
 ##  The steps of *k*-means clustering
 
-Let $\mu_{1}, \mu_{2}, \ldots, \mu_{k}$ be the initially guessed means of the *k* clusters we are looking to determine.
+Let $\mu_{1}, \mu_{2}, \ldots, \mu_{k}$ be the initially guessed means of the *k* clusters we are looking to calculate.
 
 **Step 1.**  For each data point, find the closest mean $\mu_{i}$ and label that point as belonging to the $i$-th cluster.
 
