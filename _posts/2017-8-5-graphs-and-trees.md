@@ -20,12 +20,18 @@ A pair of nodes paired up by a link is said to be "linked".
 
 ###  Walks, paths, and connectivity
 
-Sometimes the links model transporting of objects or transmission of signals from node to node via links (which make the transportation/transmission possible). 
+Sometimes the links model transporting of objects or transmission of signals from node to node, and the transportation/transmission is possible only if the two nodes are linked.
+
 If an object is transported through two or more nodes, then the nodes it traverses can be written down, in that order.  A sequence of nodes in graph with every consecutive pair linked is called a **walk** (in that graph).  A walk can have repeated nodes: after all, some itineraries go through the same location more than once.
 
 A graph is **connected** if every two nodes are connected by a walk.  
 
-(A list of cities is connected if one can get from any city to any other in the list while without visiting any city off the list.)
+(A list of cities is connected if one can get from any city to any other in the list without visiting any city off the list.  The "getting" from one city to another does not have to be direct: we can go through other, intermediate, cities, as long as they are on our list.)
+
+The graph illustrated above is not connected, but the following one is:
+
+![linear fit]({{ site.url }}/images/connected-graph-example.jpg){:height="300px" width = "400px"}
+
 
 ###  Two special types of paths
 
