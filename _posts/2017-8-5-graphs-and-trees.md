@@ -4,8 +4,6 @@ use_math: true
 title: Graphs and Trees
 ---
 
-# Graphs and Trees
-
 Many methods of data analysis "branch out" (choose one possibility over another) and link pairs of objects based on similarity in some features (e.g., pairs of cities with a direct flight connection).  The concept of a **graph** was invented to keep track of these processes and information structures.  This concept is convenient both for analysis and programming.
 
 ##  Graphs
