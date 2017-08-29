@@ -16,7 +16,7 @@ So, we can specify a graph by writing down these two lists--for example, nodes: 
 
 ![linear fit]({{ site.url }}/images/graph-example-1.jpg){:height="300px" width = "400px"}
 
-Another way to list the same links is: {*C*, *A*}, {*A*, *D*}, {*G*, *E*}.  Can you find another?
+Another way to list the same links is: {*C*, *A*}, {*A*, *D*}, {*G*, *E*}.  Any others?
 
 A pair of nodes paired up by a link is said to be "linked".
 
