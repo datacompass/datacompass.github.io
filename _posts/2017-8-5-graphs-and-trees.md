@@ -16,7 +16,6 @@ So, we can specify a graph by writing down these two lists--for example, nodes: 
 
 ![linear fit]({{ site.url }}/images/graph-example-1.jpg){:height="300px" width = "400px"}
 
-
 A pair of nodes paired up by a link is said to be "linked".
 
 ###  Walks, paths, and connectivity
