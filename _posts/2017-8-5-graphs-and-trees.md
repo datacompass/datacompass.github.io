@@ -35,7 +35,7 @@ The graph illustrated above is not connected, but the following one is:
 ![linear fit]({{ site.url }}/images/connected-graph-example.jpg){:height="300px" width = "400px"}
 
 
-###  Two special types of paths
+###  Two special types of walks
 
 **Paths:**  A walk with each node appearing exactly once is called a **path**.
 
