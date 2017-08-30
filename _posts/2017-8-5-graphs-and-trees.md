@@ -30,7 +30,7 @@ In the graph
 
 ![linear fit]({{ site.url }}/images/graph-example-with-paths.jpg){:height="300px" width = "400px"}
 
-the node sequence C, A, G, D, A, G, E is a walk, the node sequence C, A, G, A, D is a walk, but the node sequence G, E, F, B is not a walk, since the nodes E and F are not linked.
+the node sequence C, A, G, D, A, G, E is a walk (try to trace it with a pointer), the node sequence C, A, G, A, D is a walk, but the node sequence G, E, F, B is not a walk, since the nodes E and F are not linked.
 
 A graph is **connected** if every two nodes are connected by a walk.  
 
@@ -60,3 +60,5 @@ A connected graph with no cycles is called a **tree**.  If one of the nodes in a
 Sometimes graphs are needed to model links that can be traversed in one direction, but not in the other (like one-way streets).  Such links are specified a little differently from the above; namely, one now writes a links as an *ordered* pair of nodes.
 
 A graph where the links are ordered pairs of nodes is called a **directed graph**.
+
+In a sketch of a directed graph, each link are usually shown with arrowheads indicating the direction of the link.
