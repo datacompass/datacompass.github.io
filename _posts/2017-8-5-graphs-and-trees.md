@@ -28,7 +28,7 @@ If an object is transported through two or more nodes, then the nodes it travers
 
 In the graph
 
-![linear fit]({{ site.url }}/images/graph-example-with-walks.jpg){:height="300px" width = "400px"}
+![linear fit]({{ site.url }}/images/graph-example-with-paths.jpg){:height="300px" width = "400px"}
 
 the node sequence C, A, G, D, A, G, E is a walk, the node sequence C, A, G, A, D is a walk, but the node sequence G, E, F, B is not a walk, since the nodes E and F are not linked.
 
