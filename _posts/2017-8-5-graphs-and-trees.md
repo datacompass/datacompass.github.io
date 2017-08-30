@@ -63,4 +63,4 @@ Sometimes graphs are needed to model links that can be traversed in one directio
 
 A graph where the links are ordered pairs of nodes is called a **directed graph**.
 
-In a sketch of a directed graph, each link is usually shown with an arrowhead indicating the direction of the link.  What if we want direct access both from node *A* to node *B* and from *B* to *A*?  Answer: include both of the links (*A*, *B*), (*B*, *A*).
+In a sketch of a directed graph, each link is usually shown with an arrowhead indicating the direction of the link.  What if we want direct access both from node *A* to node *B* and from *B* to *A*?  Answer: include both the links (*A*, *B*) and (*B*, *A*).
