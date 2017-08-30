@@ -44,11 +44,13 @@ Of the two graphs illustrated above, the first one is not connected, but the sec
 
 In the last graph above, the node sequence *C*, *A*, *G*, *D*, *A*, *G*, *E* is not a path, the node sequence *C*, *A*, *G*, *A*, *D* is not a path, but the node sequence *C*, *A*, *G*, *F*, *B* is a path.
 
+Given a walk in a graph, one can always delete from it some vertices so as to obtain a path.
+
 **Cycles:**  A walk with the first and last node being the same one is called a **cycle**.
 
-In the last graph above, the walk *A*, *G*, *D*, *A* is a cycle.
+In the last graph above, the walk *A*, *G*, *D*, *A* is a cycle, and so is *C*, *A*, *G*, *D*, *A*, *C*.
 
-One exercise in algorithms is to write a program that determines whether a given graph contains a cycle.
+One exercise in algorithms is to write a program that determines whether a given graph contains a cycle.  
 
 ###  Trees
 
