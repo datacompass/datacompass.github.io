@@ -26,6 +26,12 @@ Sometimes the links model transporting of objects or transmission of signals fro
 
 If an object is transported through two or more nodes, then the nodes it traverses can be written down, in that order.  A sequence of nodes in graph with every consecutive pair linked is called a **walk** (in that graph).  A walk can have repeated nodes: after all, some itineraries go through the same location more than once.
 
+In the graph
+
+![linear fit]({{ site.url }}/images/graph-example-with-walks.jpg){:height="300px" width = "400px"}
+
+the node sequence C, A, G, D, A, G, E is a walk, the node sequence C, A, G, A, D is a walk, but the node sequence G, E, F, B is not a walk, since the nodes E and F are not linked.
+
 A graph is **connected** if every two nodes are connected by a walk.  
 
 (A list of cities is connected if one can get from any city to any other in the list without visiting any city off the list.  The "getting" from one city to another does not have to be direct: we can go through other, intermediate, cities, as long as they are on our list.)
