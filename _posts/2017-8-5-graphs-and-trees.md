@@ -4,7 +4,7 @@ use_math: true
 title: Graphs and Trees
 ---
 
-Many methods of data analysis "branch out" (choose one possibility over another) and link pairs of objects based on similarity in some features (e.g., pairs of cities with a direct flight connection).  The concept of a **graph** was invented to keep track of these processes and information structures.  This concept is convenient for both analysis and programming.
+Many methods of data analysis "branch out" (choose one possibility over another) and link pairs of objects based on similarity in some features (e.g., pairs of cities with a direct f, since the nodes E and F are not linkedlight connection).  The concept of a **graph** was invented to keep track of these processes and information structures.  This concept is convenient for both analysis and programming.
 
 ##  Graphs
 
@@ -42,11 +42,11 @@ Of the two graphs illustrated above, the first one is not connected, but the sec
 
 **Paths:**  A walk with each node appearing exactly once is called a **path**.
 
-In the last graph above, the node sequence C, A, G, D, A, G, E is not a path, the node sequence C, A, G, A, D is not a path, but the node sequence C, A, G, F, B is a path.
+In the last graph above, the node sequence *C*, *A*, *G*, *D*, *A*, *G*, *E* is not a path, the node sequence *C*, *A*, *G*, *A*, *D* is not a path, but the node sequence *C*, *A*, *G*, *F*, *B* is a path.
 
 **Cycles:**  A walk with the first and last node being the same one is called a **cycle**.
 
-In the last graph above, the walk A, G, D, A is a cycle.
+In the last graph above, the walk *A*, *G*, *D*, *A* is a cycle.
 
 One exercise in algorithms is to write a program that determines whether a given graph contains a cycle.
 
@@ -61,4 +61,4 @@ Sometimes graphs are needed to model links that can be traversed in one directio
 
 A graph where the links are ordered pairs of nodes is called a **directed graph**.
 
-In a sketch of a directed graph, each link are usually shown with arrowheads indicating the direction of the link.
+In a sketch of a directed graph, each link is usually shown with an arrowhead indicating the direction of the link.  What if we want direct access both from node *A* to node *B* and from *B* to *A*?  Answer: include both of the links (*A*, *B*), (*B*, *A*).
