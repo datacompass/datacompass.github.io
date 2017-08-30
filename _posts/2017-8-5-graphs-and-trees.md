@@ -36,16 +36,17 @@ A graph is **connected** if every two nodes are connected by a walk.
 
 (A list of cities is connected if one can get from any city to any other in the list without visiting any city off the list.  The "getting" from one city to another does not have to be direct: we can go through other, intermediate, cities, as long as they are on our list.)
 
-The graph illustrated above is not connected, but the following one is:
-
-![linear fit]({{ site.url }}/images/connected-graph-example.jpg){:height="300px" width = "400px"}
-
+Of the two graphs illustrated above, the first one is not connected, but the second one is.
 
 ###  Two special types of walks
 
 **Paths:**  A walk with each node appearing exactly once is called a **path**.
 
+In the last graph above, the node sequence C, A, G, D, A, G, E is not a path, the node sequence C, A, G, A, D is not a path, but the node sequence C, A, G, F, B is a path.
+
 **Cycles:**  A walk with the first and last node being the same one is called a **cycle**.
+
+In the last graph above, the walk A, G, D, A is a cycle.
 
 One exercise in algorithms is to write a program that determines whether a given graph contains a cycle.
 
